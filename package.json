@@ -1,0 +1,29 @@
+{
+  "name": "contact",
+  "version": "1.0.0",
+  "description": "First node/express project.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon sever.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ngrg00/Contact.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Ngrg00/Contact/issues"
+  },
+  "homepage": "https://github.com/Ngrg00/Contact#readme",
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1",
+    "express-async-handler": "^1.2.0",
+    "mongoose": "^9.1.5",
+    "nodemon": "^3.1.11"
+  }
+}
