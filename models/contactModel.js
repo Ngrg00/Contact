@@ -14,7 +14,8 @@ const contactModel = mongoose.Schema(
 
         phone: {
             type: Number,
-            required: [true, "Please enter a contact number."]
+            required: [true, "Please enter a contact number."],
+            unique: [true, "Phone number already exist."]
         }, 
     }, 
 
